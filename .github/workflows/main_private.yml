@@ -20,7 +20,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: .net-app
-          path: $(Build.SourcesDirectory)
+          path: .
 
   deploy:
     runs-on: ubuntu-latest
